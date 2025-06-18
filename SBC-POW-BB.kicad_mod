@@ -1,0 +1,362 @@
+(footprint "SBC-POW-BB"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "U11"
+		(at 3.15 -2.48 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1ea9f435-0977-4a0d-95ea-e9f28d5616f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SBC-POW-BB"
+		(at 0 -4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "73610a15-af85-4164-9886-1d935d7a5930")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b5b9360-1d81-4203-b0b4-1414c4626cfe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Spannungsversorgung für Breadboards"
+		(at 0 -5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15588e60-dc29-46eb-8965-18f977c8a968")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start 0 0)
+		(end 53 30)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0a64a15b-dd06-4479-8194-d488c93be2f9")
+	)
+	(fp_rect
+		(start 53 0)
+		(end 59.1 13.93)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e7fe5fd2-d550-40cb-9031-66ec36cf7119")
+	)
+	(fp_rect
+		(start 0.87 0.09)
+		(end 7.03 10.04)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "61b035ec-f87a-41af-bd42-43c4210427fd")
+	)
+	(fp_rect
+		(start 8.65 0.54)
+		(end 15.08 7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "2dcad5a4-1ca7-4d6f-ac64-a718439c4684")
+	)
+	(fp_rect
+		(start 35.59 0.6)
+		(end 45.13 10.14)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "b223789c-037c-45c2-ae74-57a5c17c9afa")
+	)
+	(fp_rect
+		(start 51.83 1.11)
+		(end 57.58 6.01)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "cfee8a36-ba6c-411e-bf67-46f66380d6c6")
+	)
+	(fp_line
+		(start -0.52 -0.41)
+		(end 53.36 -0.41)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "8e08445e-d62c-4de2-99fb-a41c02c877e8")
+	)
+	(fp_line
+		(start -0.52 30.45)
+		(end -0.52 -0.41)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "9da47a9e-5122-45bf-a7fc-08d28229ad01")
+	)
+	(fp_line
+		(start 53.36 -0.41)
+		(end 59.32 -0.41)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "ebe9852d-1651-49a0-b033-dfade0c3f15f")
+	)
+	(fp_line
+		(start 53.36 30.45)
+		(end -0.52 30.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "78afd0a1-4a29-4387-9d7b-371b6ef951c7")
+	)
+	(fp_line
+		(start 53.36 30.45)
+		(end 53.36 14.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "2b67e684-3ff3-49c7-b1a3-d011a16096bf")
+	)
+	(fp_line
+		(start 59.32 -0.41)
+		(end 59.32 14.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "1c59ee1c-aee5-4573-b168-c448fe41093b")
+	)
+	(fp_line
+		(start 59.32 14.1)
+		(end 53.36 14.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "49af6cb4-4f97-4ecb-bfc9-e44d35ec2b2c")
+	)
+	(fp_rect
+		(start -0.25 -0.17)
+		(end 53.2 30.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "cf70c319-bc32-4a9e-83b0-8e321de2b117")
+	)
+	(fp_rect
+		(start 53.2 -0.17)
+		(end 59.21 14.03)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b203b052-705c-4086-aff3-0f95d87414b5")
+	)
+	(fp_text user "No Front"
+		(at 22.49 29.24 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "58ca26a5-d5e7-480f-bac2-a5fe7cecf117")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "Front"
+		(at 23.42 1.56 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "d939272e-454c-4403-8580-5d5183061feb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c1dec837-fefe-4f1a-9743-90ec3bfb3e0b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 3.25 16.75)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ac71f121-4bd9-47ea-8ffc-d577e50c2e85")
+	)
+	(pad "2" thru_hole circle
+		(at 3.25 26.75)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "31f6cef1-5750-482f-bb4b-dd1c907625ff")
+	)
+	(pad "3" thru_hole circle
+		(at 5.79 26.75)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "276425d5-9bff-4508-aed7-fe35584623bd")
+	)
+	(pad "4" thru_hole circle
+		(at 5.79 16.75)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "43377831-0fa5-4794-8028-9e7d953ef47b")
+	)
+	(pad "5" thru_hole circle
+		(at 47.21 16.75)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f9726b0d-ef91-40fe-afba-5eefc9aed355")
+	)
+	(pad "6" thru_hole circle
+		(at 47.21 26.75)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "84333736-40cf-4ac4-b8da-7735441e0225")
+	)
+	(pad "7" thru_hole circle
+		(at 49.75 26.75)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3fda047e-62b2-4846-8c2c-2f9e4509cb47")
+	)
+	(pad "8" thru_hole circle
+		(at 49.75 16.75)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "008e1027-a9da-45a0-b70b-46ae2cf81bb6")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x02_P2.54mm_Vertical.step"
+		(offset
+			(xyz 3.25 -16.75 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x02_P2.54mm_Vertical.step"
+		(offset
+			(xyz 3.25 -26.75 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x02_P2.54mm_Vertical.step"
+		(offset
+			(xyz 47.25 -26.75 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x02_P2.54mm_Vertical.step"
+		(offset
+			(xyz 47.25 -16.75 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)

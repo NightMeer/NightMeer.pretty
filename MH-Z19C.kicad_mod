@@ -1,0 +1,279 @@
+(footprint "MH-Z19C"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "U9"
+		(at 12.67 6.79 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9e145cbf-f7e7-4807-9429-6d5c128015eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MH-Z19C"
+		(at 12.67 8.29 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5142abfc-d26b-4ac8-b5de-18ab6d0b64a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 12.67 7.29 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2342aa5e-e35a-40e7-bd21-dd5a15e81940")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Infrared CO2 Sensor Module"
+		(at 12.67 7.29 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02bdb34a-1ae7-417c-98d4-e03accc612d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.5 3.5)
+		(end 0 3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6a2df8b5-0e7c-42db-8f4d-c8f817814f6b")
+	)
+	(fp_line
+		(start -3.5 16.8)
+		(end -3.5 3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d80c4e77-325d-4f28-94f1-14249199ad78")
+	)
+	(fp_line
+		(start 0 16.8)
+		(end -3.5 16.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "99ffe320-cce3-47af-901b-99ec0a843a00")
+	)
+	(fp_line
+		(start 26 16.8)
+		(end 29.5 16.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f4a2854e-076d-4d0a-804e-3afc48eaf007")
+	)
+	(fp_line
+		(start 29.5 3.5)
+		(end 26 3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1ce545f3-8760-48fd-85d5-94609b6565f7")
+	)
+	(fp_line
+		(start 29.5 16.8)
+		(end 29.5 3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ce4c2f05-0c65-47f2-984d-247141af4eef")
+	)
+	(fp_rect
+		(start 0 0)
+		(end 26 20)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5450f769-73b8-4d6a-b6d8-072d237a6031")
+	)
+	(fp_rect
+		(start -4.33 -1.21)
+		(end 30.67 20.79)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "52363c1e-507d-48c7-a37b-bd5a5895ee40")
+	)
+	(fp_rect
+		(start -3.58 3.29)
+		(end -0.08 17.04)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7fd2d205-8b1f-45a6-9ad0-777faeb3f644")
+	)
+	(fp_rect
+		(start -0.08 -0.21)
+		(end 26.17 20.29)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2ede169f-56fe-4456-8eaf-e0e24741824c")
+	)
+	(fp_rect
+		(start 26.17 3.29)
+		(end 29.67 17.04)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "83616107-a8a6-4f9a-b2e9-21b2c81975c3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 12.67 9.79 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "89768e59-eb6b-4001-9198-7bde7a113520")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -1.67 7.71)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dda69af3-5bfb-4c2b-a9f5-0739dae5caec")
+	)
+	(pad "2" thru_hole circle
+		(at -1.67 10.25)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f3ed5152-d903-4480-8345-2d69d947f5eb")
+	)
+	(pad "3" thru_hole circle
+		(at -1.67 12.79)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e3b0f714-78c7-42e0-9af7-74bccf84ca2d")
+	)
+	(pad "4" thru_hole circle
+		(at -1.67 15.33)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "814a5f0d-3ac1-435a-a3c5-76a0eeb893d1")
+	)
+	(pad "5" thru_hole circle
+		(at 27.67 15.33)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ac255977-c6b3-4950-acff-a61ef61e51e2")
+	)
+	(pad "6" thru_hole circle
+		(at 27.67 12.79)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "34825420-1c0b-4329-b5da-bb4812eaea50")
+	)
+	(pad "7" thru_hole circle
+		(at 27.67 10.25)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d2281b1e-c7cc-4ff1-89ce-f9ef8fead4af")
+	)
+	(pad "8" thru_hole circle
+		(at 27.67 7.71)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2217dd67-9151-427d-8205-1e8fe16a8994")
+	)
+	(pad "9" thru_hole circle
+		(at 27.67 5.17)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5e1c5551-71cb-4e6b-a4a8-526539168f4c")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x05_P2.54mm_Vertical.step"
+		(offset
+			(xyz 27.6 -5.25 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x04_P2.54mm_Vertical.step"
+		(offset
+			(xyz -1.65 -7.75 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
