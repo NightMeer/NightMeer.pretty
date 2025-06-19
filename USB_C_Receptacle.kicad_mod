@@ -416,18 +416,7 @@
 		(uuid "4a5f9905-d8a3-406d-b90d-35077c4d5155")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_Amphenol_12401548E4-2A.wrl"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "C:/Users/licht/Documents/KiCad/Custom/NightMeer.pretty/3D/USB_C_Receptacle.STEP"
+	(model "${NightMeer}/3D/USB_C_Receptacle.STEP"
 		(offset
 			(xyz 0 -5.25 1.5)
 		)
