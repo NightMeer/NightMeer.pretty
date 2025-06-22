@@ -361,7 +361,7 @@
 	)
 	(model "${CUSTOM}/NightMeer.pretty/3D/SBC-POW-BB.wrl"
 		(offset
-			(xyz 26.5 -14.5 11.25)
+			(xyz 26.65 -14.5 11.25)
 		)
 		(scale
 			(xyz 1 1 1)
