@@ -317,7 +317,7 @@
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x02_P2.54mm_Vertical.step"
 		(offset
-			(xyz 3.25 -16.75 0.5)
+			(xyz 3.25 -16.75 0)
 		)
 		(scale
 			(xyz 1 1 1)
@@ -357,6 +357,17 @@
 		)
 		(rotate
 			(xyz -0 -0 -90)
+		)
+	)
+	(model "${CUSTOM}/NightMeer.pretty/3D/SBC-POW-BB.wrl"
+		(offset
+			(xyz 26.5 -14.5 11.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
 		)
 	)
 )

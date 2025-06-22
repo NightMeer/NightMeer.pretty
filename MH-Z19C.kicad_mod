@@ -276,4 +276,15 @@
 			(xyz -0 -0 -0)
 		)
 	)
+	(model "${CUSTOM}/NightMeer.pretty/3D/MHZ19.wrl"
+		(offset
+			(xyz 13 -10.5 16)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
 )
