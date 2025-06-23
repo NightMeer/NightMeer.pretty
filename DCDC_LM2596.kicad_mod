@@ -1502,6 +1502,18 @@
 	)
 	(embedded_fonts no)
 	(model "${NIGHTMEER}/3D/DCDC_LM2596.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${NIGHTMEER}/3D/DCDC_LM2596_PinHeaders_cp.step"
 		(offset
 			(xyz 0 0 0)
 		)
