@@ -359,7 +359,7 @@
 			(xyz -0 -0 -90)
 		)
 	)
-	(model "${CUSTOM}/NightMeer.pretty/3D/SBC-POW-BB.wrl"
+	(model "${NIGHTMEER}/3D/SBC-POW-BB.wrl"
 		(offset
 			(xyz 26.65 -14.5 11.25)
 		)
