@@ -43,7 +43,7 @@ Shape # Material: Material
 	}
 	appearance Appearance {
 		material Material {
-			diffuseColor 0.8000 0.8000 0.8000
+			diffuseColor 0.0102 0.0102 0.0102
 			transparency 0.0000
 			shininess 0.5000
 		}
@@ -1968,7 +1968,7 @@ Shape # Material: Gold
 	}
 }
 
-Shape # Material: Default
+Shape # Material: Material.001
 {
 	geometry IndexedFaceSet {
 		coord Coordinate { point [
@@ -2010,9 +2010,9 @@ Shape # Material: Default
 	}
 	appearance Appearance {
 		material Material {
-			diffuseColor 0.8000 0.8000 0.8000
+			diffuseColor 0.0993 0.0993 0.0993
 			transparency 0.0000
-			shininess 0.5000
+			shininess 0.6000
 		}
 	}
 }

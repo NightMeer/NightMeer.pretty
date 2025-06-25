@@ -1,7 +1,7 @@
 #VRML V2.0 utf8
 # Exportiert mit Blender-WRL-Export (The Smart Assistant)
 
-Shape # Material: Default
+Shape # Material: Material
 {
 	geometry IndexedFaceSet {
 		coord Coordinate { point [
@@ -43,14 +43,14 @@ Shape # Material: Default
 	}
 	appearance Appearance {
 		material Material {
-			diffuseColor 0.8000 0.8000 0.8000
+			diffuseColor 0.0102 0.0102 0.0102
 			transparency 0.0000
 			shininess 0.5000
 		}
 	}
 }
 
-Shape # Material: m20-9990345_color_1.001
+Shape # Material: Grau
 {
 	geometry IndexedFaceSet {
 		coord Coordinate { point [
@@ -2324,7 +2324,7 @@ Shape # Material: Gold.001
 	}
 }
 
-Shape # Material: Default
+Shape # Material: Grau
 {
 	geometry IndexedFaceSet {
 		coord Coordinate { point [
@@ -2366,14 +2366,14 @@ Shape # Material: Default
 	}
 	appearance Appearance {
 		material Material {
-			diffuseColor 0.8000 0.8000 0.8000
+			diffuseColor 0.2980 0.2980 0.2980
 			transparency 0.0000
-			shininess 0.5000
+			shininess 0.0000
 		}
 	}
 }
 
-Shape # Material: Default
+Shape # Material: Grau
 {
 	geometry IndexedFaceSet {
 		coord Coordinate { point [
@@ -2415,14 +2415,14 @@ Shape # Material: Default
 	}
 	appearance Appearance {
 		material Material {
-			diffuseColor 0.8000 0.8000 0.8000
+			diffuseColor 0.2980 0.2980 0.2980
 			transparency 0.0000
-			shininess 0.5000
+			shininess 0.0000
 		}
 	}
 }
 
-Shape # Material: Default
+Shape # Material: Material.001
 {
 	geometry IndexedFaceSet {
 		coord Coordinate { point [
@@ -2464,14 +2464,14 @@ Shape # Material: Default
 	}
 	appearance Appearance {
 		material Material {
-			diffuseColor 0.8000 0.8000 0.8000
+			diffuseColor 0.8002 0.6438 0.0701
 			transparency 0.0000
-			shininess 0.5000
+			shininess 0.6000
 		}
 	}
 }
 
-Shape # Material: Default
+Shape # Material: Grau
 {
 	geometry IndexedFaceSet {
 		coord Coordinate { point [
@@ -2513,14 +2513,14 @@ Shape # Material: Default
 	}
 	appearance Appearance {
 		material Material {
-			diffuseColor 0.8000 0.8000 0.8000
+			diffuseColor 0.2980 0.2980 0.2980
 			transparency 0.0000
-			shininess 0.5000
+			shininess 0.0000
 		}
 	}
 }
 
-Shape # Material: Default
+Shape # Material: Material.001
 {
 	geometry IndexedFaceSet {
 		coord Coordinate { point [
@@ -2562,14 +2562,14 @@ Shape # Material: Default
 	}
 	appearance Appearance {
 		material Material {
-			diffuseColor 0.8000 0.8000 0.8000
+			diffuseColor 0.8002 0.6438 0.0701
 			transparency 0.0000
-			shininess 0.5000
+			shininess 0.6000
 		}
 	}
 }
 
-Shape # Material: Default
+Shape # Material: Grau
 {
 	geometry IndexedFaceSet {
 		coord Coordinate { point [
@@ -2611,14 +2611,14 @@ Shape # Material: Default
 	}
 	appearance Appearance {
 		material Material {
-			diffuseColor 0.8000 0.8000 0.8000
+			diffuseColor 0.2980 0.2980 0.2980
 			transparency 0.0000
-			shininess 0.5000
+			shininess 0.0000
 		}
 	}
 }
 
-Shape # Material: Default
+Shape # Material: Grau
 {
 	geometry IndexedFaceSet {
 		coord Coordinate { point [
@@ -2660,14 +2660,14 @@ Shape # Material: Default
 	}
 	appearance Appearance {
 		material Material {
-			diffuseColor 0.8000 0.8000 0.8000
+			diffuseColor 0.2980 0.2980 0.2980
 			transparency 0.0000
-			shininess 0.5000
+			shininess 0.0000
 		}
 	}
 }
 
-Shape # Material: Default
+Shape # Material: Grau
 {
 	geometry IndexedFaceSet {
 		coord Coordinate { point [
@@ -2709,14 +2709,14 @@ Shape # Material: Default
 	}
 	appearance Appearance {
 		material Material {
-			diffuseColor 0.8000 0.8000 0.8000
+			diffuseColor 0.2980 0.2980 0.2980
 			transparency 0.0000
-			shininess 0.5000
+			shininess 0.0000
 		}
 	}
 }
 
-Shape # Material: Default
+Shape # Material: Grau
 {
 	geometry IndexedFaceSet {
 		coord Coordinate { point [
@@ -2758,9 +2758,9 @@ Shape # Material: Default
 	}
 	appearance Appearance {
 		material Material {
-			diffuseColor 0.8000 0.8000 0.8000
+			diffuseColor 0.2980 0.2980 0.2980
 			transparency 0.0000
-			shininess 0.5000
+			shininess 0.0000
 		}
 	}
 }
