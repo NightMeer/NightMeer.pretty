@@ -1,7 +1,7 @@
 (footprint "MCP9600"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 21.6 -32.5 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "77e1f636-34d2-4e9c-9e1a-4db116c29c45")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 21.6 -32 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f8f63415-e576-4a66-9c55-863dc7b22eaf")
 		(effects
 			(font
 				(size 1 1)
@@ -74,7 +61,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "21f84162-fac0-4b85-a071-53282a3b685a")
 	)
@@ -85,7 +72,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "3c4eccfb-6434-4faa-9fed-6c40d945c02e")
 	)
@@ -174,6 +161,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -182,6 +173,18 @@
 			(pts
 				(xy -1.6 -21.6) (xy -1.6 1.6) (xy 41.6 1.6) (xy 41.6 -21.6)
 			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${NIGHTMEER}/3D/Grove_TypK.wrl"
+		(offset
+			(xyz 20 10 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
 		)
 	)
 )

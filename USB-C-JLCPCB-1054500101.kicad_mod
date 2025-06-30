@@ -811,7 +811,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${CUSTOM}/NightMeer.pretty/3D/USB-C-JLCPCB-1054500101.step"
+	(model "${NIGHTMEER}/3D/USB-C-JLCPCB-1054500101.step"
 		(offset
 			(xyz 0 3.75 0)
 		)
